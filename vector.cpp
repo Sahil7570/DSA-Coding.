@@ -2,14 +2,27 @@
 #include<vector>
 using namespace std;
 int main(){
+
+/* Basic Operations on Vectors */
+
 vector<int> v;
-v.push_back(5);
+v.push_back(5);   //Inserting Element in Vector
 v.push_back(44);
 v.push_back(2);
 v.push_back(45);
 v.push_back(34);
-for(int i=0;i<v.size();i++){
+
+v.pop_back();  //Removing Element
+
+cout<<v.at(2); //Accessing Element
+
+cout<< v.capacity(); //Check the Capacity
+
+cout<<v.size(); //Check the size
+
+for(int i=0;i<v.size();i++){ //Taking Input from User
     cout<<v.at(i)<<" ";
 }
+
     return 0;
 }
