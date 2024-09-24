@@ -1,6 +1,10 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
+/*Rotate an arrya k times where k is taken as an input
+from user */
+
 void reversewhole(vector<int>& v){
 int i=0,j=v.size()-1;
 while(i<=j){
